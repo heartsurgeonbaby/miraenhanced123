@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10101b">
+<title>Miraculous Enhanced</title>
+<style>
+:root{--bg:#0b0c14;--panel:#171a29;--red:#ff3158;--blue:#52caff;--gold:#ffd166;--text:#f7f6ff;--muted:#a7a8bb}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 12% 0%,#ff31581c,transparent 42%),radial-gradient(ellipse at 90% 10%,#52caff18,transparent 40%)}
+header{position:sticky;top:0;z-index:5;background:#0b0c14ed;border-bottom:1px solid #ffffff18}
+.nav{max-width:1120px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{font-weight:950;letter-spacing:.1em;text-transform:uppercase}.brand span{color:var(--red)}
+nav{display:flex;gap:17px;flex-wrap:wrap}nav a{font-size:.88rem;text-decoration:none;color:var(--muted)}nav a:hover{color:white}
+main{max-width:1120px;margin:auto;padding:25px 20px 55px}
+.hero{text-align:center;padding:12px 0 28px}
+.logo-wrap{max-width:1000px;margin:0 auto 18px}
+.logo-wrap img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;filter:drop-shadow(0 12px 25px #000b)}
+h1{font-size:clamp(2.1rem,6vw,4.3rem);line-height:1.02;margin:10px 0;text-transform:uppercase;letter-spacing:.04em}
+h1 .red{color:var(--red)}h1 .blue{color:var(--blue)}
+.tagline{max-width:680px;margin:0 auto 18px;color:var(--muted)}
+.pills{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}
+.pill{padding:6px 12px;border-radius:999px;background:#ffffff0c;border:1px solid #ffffff22;font-size:.75rem;font-weight:900;letter-spacing:.08em}
+.pill.red{color:#ff8298;border-color:#ff315866}.pill.blue{color:#8cddff;border-color:#52caff66}
+.section-title{display:flex;align-items:center;gap:12px;margin:22px 0 14px}
+.section-title h2{font-size:1.2rem;margin:0;text-transform:uppercase;letter-spacing:.09em}
+.section-title:after{content:"";height:1px;flex:1;background:linear-gradient(90deg,#ffffff44,transparent)}
+.feed{max-width:780px;margin:0 auto}
+.post{background:var(--panel);border:1px solid #ffffff1b;border-radius:15px;overflow:hidden;margin-bottom:22px;box-shadow:0 9px 25px #0004}
+.post-head{display:flex;align-items:center;gap:11px;padding:14px 16px}
+.avatar{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--red),#8e3cc8 55%,var(--blue));display:grid;place-items:center;font-weight:1000}
+.post-title{font-weight:850}.post-sub{font-size:.78rem;color:var(--muted)}
+.post-tag{margin-left:auto;color:var(--gold);font-size:.72rem;font-weight:950;letter-spacing:.08em}
+.caption{padding:0 16px 13px;color:#deddec}
+.video-frame{background:#05060b;aspect-ratio:16/9;display:grid;place-items:center}
+video{display:block;width:100%;height:100%;max-height:72vh;object-fit:contain;background:#05060b}
+.post-foot{padding:10px 16px;color:var(--muted);font-size:.82rem;border-top:1px solid #ffffff12}
+.about{max-width:780px;margin:28px auto 0;padding:19px;background:linear-gradient(120deg,#ff315815,#52caff10);border:1px solid #ffffff1c;border-radius:14px}
+.about h2{font-size:1.08rem;margin:0 0 6px}.about p{margin:0;color:var(--muted)}
+footer{text-align:center;padding:22px;color:#85869b;font-size:.8rem}
+@media(max-width:600px){.nav{padding:10px 14px}nav{gap:11px}.nav nav a{font-size:.8rem}main{padding:18px 12px 40px}.post{border-radius:11px}.post-head{padding:11px 12px}.caption{padding:0 12px 11px}.post-foot{padding:9px 12px}.logo-wrap img{max-height:300px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">MIRACULOUS <span>ENHANCED</span></div>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#videos">Videos</a><a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="logo-wrap">
+      <img src="1lgo1.png" alt="Miraculous Enhanced — Paris Adventure logo">
+    </div>
+    <h1><span class="red">Miraculous</span> <span class="blue">Enhanced</span></h1>
+    <p class="tagline">Paris gets a high-energy crossover treatment. Two clips, one fan-made universe, and a little extra visual flair.</p>
+    <div class="pills">
+      <span class="pill red">MIRACULOUS</span>
+      <span class="pill blue">PARIS ADVENTURE</span>
+      <span class="pill">GTA-INSPIRED</span>
+      <span class="pill">LOW-END FRIENDLY</span>
+    </div>
+  </section>
+
+  <section id="videos" class="feed">
+    <div class="section-title"><h2>Featured videos</h2></div>
+
+    <article class="post">
+      <div class="post-head">
+        <div class="avatar">ME</div>
+        <div><div class="post-title">Miraculous Enhanced</div><div class="post-sub">Paris Adventure · Video 01</div></div>
+        <div class="post-tag">FEATURED</div>
+      </div>
+      <div class="caption">The adventure begins. Watch the first clip from the Miraculous x GTA-inspired project.</div>
+      <div class="video-frame">
+        <video controls playsinline preload="none" poster="1lgo1.png">
+          <source src="2026-11-15 13-52-14.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div>
+      <div class="post-foot">Fan-made crossover project · Video player</div>
+    </article>
+
+    <article class="post">
+      <div class="post-head">
+        <div class="avatar">ME</div>
+        <div><div class="post-title">Miraculous Enhanced</div><div class="post-sub">Paris Adventure · Video 02</div></div>
+        <div class="post-tag">NEW CLIP</div>
+      </div>
+      <div class="caption">The next part of the Paris story. Select play when you're ready.</div>
+      <div class="video-frame">
+        <video controls playsinline preload="none" poster="1lgo1.png">
+          <source src="2026-11-18 15-20-40.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div>
+      <div class="post-foot">Fan-made crossover project · Video player</div>
+    </article>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About this project</h2>
+    <p>A fan-made Miraculous and open-world crime-game-inspired crossover page. This lightweight, single-file webpage uses CSS-only glow effects, no external libraries, no autoplay, and lazy video loading to help it run smoothly on lower-end computers.</p>
+  </section>
+</main>
+<footer>Miraculous Enhanced · Fan-made project · Not affiliated with the original rights holders</footer>
+</body>
+</html>
